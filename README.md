@@ -97,11 +97,11 @@ The goal is to demonstrate real-world engineering practices rather than isolated
 Current stage:
 
 - [x] Initial project structure
-- [ ] Public data ingestion
-- [ ] ETL pipeline
-- [ ] Analytics layer
+- [x] Public data ingestion
+- [x] ETL pipeline
+- [x] Analytics layer
 - [ ] FastAPI
-- [ ] Streamlit Dashboard
+- [x] Streamlit Dashboard
 - [ ] AI Analyst
 
 ---
