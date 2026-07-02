@@ -1,18 +1,16 @@
-from src.analytics.health_kpis import run_analytics
-from src.ingestion.health_ingestion import run_ingestion
-from src.transform.health_transform import run_transformation
+from src.ingestion.sih_ingestion import run as ingest
+from src.transform.sih_transform import run as transform
+from src.analytics.sih_kpis import run as analytics
 
 
-def main() -> None:
-    """Execute the complete InsightFlow AI pipeline."""
+def main():
+    print("\n🚀 InsightFlow AI - Health Pipeline\n")
 
-    print("🚀 Starting InsightFlow AI pipeline...\n")
+    ingest()
+    transform()
+    analytics()
 
-    run_ingestion()
-    run_transformation()
-    run_analytics()
-
-    print("\n✅ Pipeline finished!")
+    print("\n🏁 Pipeline finished successfully!")
 
 
 if __name__ == "__main__":

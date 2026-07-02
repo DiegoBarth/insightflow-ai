@@ -1,0 +1,18 @@
+state,city,year,month,disease,cid_group,age_group,sex,hospitalizations,avg_cost,avg_length_stay
+PR,Curitiba,2024,1,Dengue,A90,A00-19,F,320,1850,4.2
+PR,Curitiba,2024,1,Dengue,A90,A20-59,M,410,2100,4.8
+SP,Sao Paulo,2024,1,Dengue,A90,A20-59,F,1250,2400,5.1
+SP,Sao Paulo,2024,1,Dengue,A90,A60+,M,980,2600,6.3
+RJ,Rio de Janeiro,2024,1,Dengue,A90,A20-59,F,860,2300,5.0
+MG,Belo Horizonte,2024,1,Dengue,A90,A20-59,M,540,1900,4.6
+RS,Porto Alegre,2024,1,Dengue,A90,A60+,F,300,2000,6.0
+PR,Curitiba,2024,2,Influenza,J10,A60+,F,420,1500,7.2
+SP,Sao Paulo,2024,2,Influenza,J10,A20-59,M,980,1700,5.8
+RJ,Rio de Janeiro,2024,2,Influenza,J10,A60+,F,610,1600,6.5
+MG,Belo Horizonte,2024,2,Influenza,J10,A00-19,M,220,1200,3.8
+RS,Porto Alegre,2024,2,Influenza,J10,A60+,M,380,1550,6.9
+PR,Curitiba,2024,3,Pneumonia,J18,A60+,F,510,2200,8.1
+SP,Sao Paulo,2024,3,Pneumonia,J18,A60+,M,1420,2500,9.2
+RJ,Rio de Janeiro,2024,3,Pneumonia,J18,A20-59,F,780,2100,7.0
+MG,Belo Horizonte,2024,3,Pneumonia,J18,A60+,M,610,2300,8.5
+RS,Porto Alegre,2024,3,Pneumonia,J18,A60+,F,430,2150,8.0
